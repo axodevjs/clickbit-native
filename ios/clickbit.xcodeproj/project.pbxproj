@@ -14,6 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-clickbit-clickbitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-clickbit-clickbitTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B83CEFAA54824646B90B1AD4 /* proximanova_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2F7FDA8A17546BA91BB6F15 /* proximanova_bold.otf */; };
+		EDE76717B51D449D8A206ECC /* proximanova_light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 060243D61B4E45B9958AFE21 /* proximanova_light.otf */; };
+		2A99259B08704715991EEF00 /* proximanova_black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417D4DF6DF5349148ED902AB /* proximanova_black.ttf */; };
+		A3A994401E73453CB6B01171 /* proximanova_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C260F4089B840BA9D6CC429 /* proximanova_regular.ttf */; };
+		511FB88E3FB54F119D7EE673 /* RFDewiExpanded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ECF1FBC2B3D4DC0A1A4A5FC /* RFDewiExpanded-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = clickbit/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-clickbit-clickbitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickbit-clickbitTests.release.xcconfig"; path = "Target Support Files/Pods-clickbit-clickbitTests/Pods-clickbit-clickbitTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B2F7FDA8A17546BA91BB6F15 /* proximanova_bold.otf */ = {isa = PBXFileReference; name = "proximanova_bold.otf"; path = "../src/assets/fonts/proxima/proximanova_bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		060243D61B4E45B9958AFE21 /* proximanova_light.otf */ = {isa = PBXFileReference; name = "proximanova_light.otf"; path = "../src/assets/fonts/proxima/proximanova_light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		417D4DF6DF5349148ED902AB /* proximanova_black.ttf */ = {isa = PBXFileReference; name = "proximanova_black.ttf"; path = "../src/assets/fonts/proxima/proximanova_black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C260F4089B840BA9D6CC429 /* proximanova_regular.ttf */ = {isa = PBXFileReference; name = "proximanova_regular.ttf"; path = "../src/assets/fonts/proxima/proximanova_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9ECF1FBC2B3D4DC0A1A4A5FC /* RFDewiExpanded-Bold.ttf */ = {isa = PBXFileReference; name = "RFDewiExpanded-Bold.ttf"; path = "../src/assets/fonts/RFDewiExpanded-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				73E26B864C2F42648F74F4B5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +158,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		73E26B864C2F42648F74F4B5 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				B2F7FDA8A17546BA91BB6F15 /* proximanova_bold.otf */,
+				060243D61B4E45B9958AFE21 /* proximanova_light.otf */,
+				417D4DF6DF5349148ED902AB /* proximanova_black.ttf */,
+				3C260F4089B840BA9D6CC429 /* proximanova_regular.ttf */,
+				9ECF1FBC2B3D4DC0A1A4A5FC /* RFDewiExpanded-Bold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +267,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				B83CEFAA54824646B90B1AD4 /* proximanova_bold.otf in Resources */,
+				EDE76717B51D449D8A206ECC /* proximanova_light.otf in Resources */,
+				2A99259B08704715991EEF00 /* proximanova_black.ttf in Resources */,
+				A3A994401E73453CB6B01171 /* proximanova_regular.ttf in Resources */,
+				511FB88E3FB54F119D7EE673 /* RFDewiExpanded-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

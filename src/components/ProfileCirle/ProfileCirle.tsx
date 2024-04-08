@@ -1,12 +1,21 @@
-import React from 'react';
+import React, {FC} from 'react';
 import {View} from 'react-native';
 import UserIcon from '../../assets/icons/UserIcon';
 import {styles} from './styles';
 
-const ProfileCirle = () => {
+interface Props {
+  size?: 'big' | 'small';
+}
+
+const ProfileCirle: FC<Props> = ({size = 'small'}) => {
   return (
-    <View style={styles.circle}>
-      <UserIcon width={24} />
+    <View
+      style={[
+        styles.circle,
+        {width: size === 'big' ? 67 : 40},
+        {height: size === 'big' ? 67 : 40},
+      ]}>
+      <UserIcon width={size === 'big' ? 36 : 24} />
     </View>
   );
 };
